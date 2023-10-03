@@ -1,0 +1,35 @@
+#AboutMe {
+    text-align: center;
+    color: aliceblue;
+    font-family: Montserrat;
+    font-size: large;
+    
+}
+.container-texte{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.hello{
+    margin-top: 50px;
+}
+p{
+    text-align:center;
+    font-size: larger;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    font-size: larger;
+}
+.btn:hover{
+    background-color: rgb(245, 135, 247);
+ 
+  
+}
+ .radius:hover{
+    scale: 1.1;
+    transition: 1s;
+    
+}
