@@ -112,7 +112,7 @@ rotateX(-90deg);
 }
 .titre:hover{
     scale: 1.1;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .button, input {
     font-family: Montserrat;
