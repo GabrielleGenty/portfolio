@@ -13,14 +13,14 @@ ul{
 .nav-link:hover, .nav-link:focus {
     color:rgb(106, 217, 248);
     scale: 1.1;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 .monlogo:hover{
-     transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+     transition: 0.8s;
+    -webkit-transition:  0.8s;
+    -moz-transition:  0.8s;
+    -ms-transition:  0.8s;
+    -o-transition:  0.8s;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
