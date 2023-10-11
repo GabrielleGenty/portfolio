@@ -23,10 +23,22 @@ ul{
 .navbar-toggler:hover{
     color: #0dcaf0;
     transition: 0.1;
+    scale: 1.1;
 }
 .monlogo{
     margin: 20px;
     text-align: center;
+}
+.nav-B{
+    font-family:Montserrat;
+}
+.nav-I{
+    color: #f8fafa;
+    font-size: x-large;
+}
+.nav-I:hover{
+    scale:1.1;
+    color: #0dcaf0;
 }
 
 .monlogo:hover{
@@ -41,10 +53,14 @@ ul{
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-@media (min-width:  1243px) and (max-width: 1430px) { 
-
+@media (min-width:  1243px) and (max-width: 1500px) { 
+    .nav-item{
+        font-family: Montserrat;
+      padding: 0;
+        margin: auto;
+    }
     .nav-link{
-      font-size:large;
+      font-size:x-large;
       padding: auto;
       margin: auto;
     }
@@ -55,7 +71,7 @@ ul{
 }
 @media  (min-width:  810px) and (max-width: 1242px) { 
     .nav-link{
-        font-size:medium;
+        font-size:large;
         padding: auto;
         margin: auto;
       }
@@ -68,6 +84,17 @@ ul{
   padding: 1%;
     margin: auto;
 }
+.icon{
+    height: 200px;
+    width: 200px;
+}
+.P1{
+    font-size:medium; 
+}
+.title{
+    font-size: 300%;
+}
+
 
 }
 @media  (max-width:809px) { 
@@ -84,23 +111,36 @@ ul{
     .monlogo{
         width: 30px;
         height: 30px;
- }
-}
-body{
-    background-image: url(../Images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+     }
+    .icon{
+    height: 150px;
+     width: 150px;
+     }
+     .P1{
+     font-size:small; 
+     }
+     .title {
+     font-size: 150%;
+      }
+    .hello{
+    font-size: 100%;
+    }
+
 }
 .home{
     padding: 0px;
     margin: 0px;
 }
-.hero{
-    height: 100vh;
-    padding-top: 25%;
-    padding-left: 5%;
-   
+.container-home{
+    background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #080000;
+}
+.hero{ 
+    padding-top: 20%;
+    padding-left: 5%; 
+    padding-bottom: 20%;
 }
 h1{
     font-family: Montserrat;
@@ -192,7 +232,6 @@ rotateX(-90deg);
 }
 .btn{
     font-family: Montserrat;
-    width: 50%;
 }
 .networks, .networks>a {
     text-align: center;  
