@@ -12,34 +12,66 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
         <ul class="nav fixed-top nav-underline justify-content-center ">
-            <li class="nav-item">
-                <a class="nav-link" id="logo" aria-current="page" href="./logo.html">
-                    <img class="monlogo" src="./Images/logo 2.png" alt="mon logo" width="40" height="40">  
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#home">Accueil</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#AboutMe">About Me</a>
+          <li class=" ">
+              <a class="nav-item" id="logo" aria-current="page" href="./logo.html">
+                  <img class="monlogo" src="./Images/logo 2.png" alt="mon logo" width="40" height="40">  
+              </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#compétences">Compétences</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Formations">Formations</a>
+              <a class="nav-link " aria-current="page" href="#home">Accueil</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Contacts">Contacts</a>
-              </li>
-          </ul>
-          
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#AboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#compétences">Compétences</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Formations">Formations</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#Contacts">Contacts</a>
+            </li> 
+            <li class=" ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </li>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav">
+                    <a class="nav- active" aria-current="page" href="#home">Acceuil</a>
+                  </li>
+                  <li class="nav">
+                    <a class="nav active" aria-current="page" href="#AboutMe">About Me</a>
+                  </li>
+                  <li class="nav">
+                    <a class="nav active" aria-current="page" href="#compétences">Compétences</a>
+                  </li>
+                  <li class="nav">
+                    <a class="nav active" aria-current="page" href="#Formations">Formations</a>
+                  </li>
+                  <li class="nav">
+                    <a class="nav active" aria-current="page" href="#Contacts">Contacts</a>
+                  </li>
+                    </ul>
+                  </li>
+              </div>
+            </div> 
+        </ul>
+    </div>
     </nav>
     <section id="home" class="block">
         <div class="container home">
-            <div class="background-image"></div>
+            <div class="background-image" ></div>
               <div class="hero">
                 <h2>Hello, I'm...</h2>
                 <tr><td>
